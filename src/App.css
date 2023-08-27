@@ -1,0 +1,27 @@
+/* 自定义 ::selection 样式 */
+#tinymce ::selection {
+  background-color: yellow; /* 设置高亮背景颜色 */
+  color: black; /* 设置高亮文本颜色 */
+}
+
+#tool-options{
+  padding: 10px;
+  border-radius: 6px;
+  background: linear-gradient(135.4deg, rgba(160,255,215,1) 0.3%,rgba(223,181,255,1) 101.01%);
+}
+
+#tool-options button{
+  width: 78px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+  border: none;
+  margin-right: 10px;
+}
+#tool-options button:last-child{
+  margin: 0;
+}
